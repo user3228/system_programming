@@ -1,0 +1,6 @@
+# ninja log v5
+2	976	1547118759	src/myproject/src@myproject@@myproject@exe/vector.cpp.o	8d2f38cbc4d044dc
+978	1231	1547118759	src/myproject/myproject	672974952c3d2796
+3	600	1547118893	build.ninja	8bbfc6442c5f7b4e
+3	967	1547118894	src/myproject/src@myproject@@myproject@exe/vector.cpp.o	814ba2a9504cb702
+968	1271	1547118894	src/myproject/myproject	36aa2640f777b71b
