@@ -1,0 +1,7 @@
+# ninja log v5
+21	434	1547148454	src/iterator_and_merge_sort/src@iterator_and_merge_sort@@iterator_and_merge_sort@exe/merge_sort.cc.o	443b52bad5546188
+6	712	1547148455	src/iterator_and_merge_sort/src@iterator_and_merge_sort@@iterator_and_merge_sort@exe/my_ostream_iterator.cc.o	6814828e55f1856f
+713	899	1547148455	src/iterator_and_merge_sort/iterator_and_merge_sort	4088c6963b95e88
+30	1795	1547148456	src/tests/src@tests@@merge_sort@exe/merge_sort_test.cc.o	acfde58517399a94
+1796	2083	1547148456	src/tests/merge_sort	e056a5420a6cc1db
+6	383	0	meson-test	1d1df91c67204513

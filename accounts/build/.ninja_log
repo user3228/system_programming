@@ -1,0 +1,6 @@
+# ninja log v5
+5	1534	1547149022	src/accounts/src@accounts@@accounts@exe/accounts.cc.o	aa9db25ae4802f5
+1536	1809	1547149023	src/accounts/accounts	88d42e34c591e8d0
+26	2306	1547149023	src/tests/src@tests@@accounts_test@exe/accounts_test.cc.o	14840bdd46bb6a81
+2307	2611	1547149024	src/tests/accounts_test	8403088f5006c2ad
+5	394	0	meson-test	1d1df91c67204513

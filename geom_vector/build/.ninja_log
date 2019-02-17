@@ -1,0 +1,7 @@
+# ninja log v5
+8	139	1547150619	src/geom_vector/src@geom_vector@@geom_vector@exe/main.cc.o	75968150fc05493b
+140	211	1547150619	src/geom_vector/geom_vector	d7207d9845a05d8
+10	1472	1547150620	src/tests/src@tests@@rotation_test.cc@exe/main_fun_test.cc.o	9638eef956f48418
+37	2097	1547150621	src/tests/src@tests@@rotation_test.cc@exe/rotation_test.cc.o	a14022f210b44ca0
+2098	2460	1547150621	src/tests/rotation_test.cc	9f12a5d278c73364
+2460	2809	0	meson-test	1d1df91c67204513

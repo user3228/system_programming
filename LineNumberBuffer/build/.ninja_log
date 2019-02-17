@@ -1,0 +1,6 @@
+# ninja log v5
+3	648	1547149446	src/LineNumberBuffer/src@LineNumberBuffer@@LineNumberBuffer@exe/LineNumberBuffer.cc.o	7b7b961f08e25158
+30	697	1547149446	src/LineNumberBuffer/src@LineNumberBuffer@@LineNumberBuffer@exe/main.cc.o	139720654f798d4
+698	924	1547149446	src/LineNumberBuffer/LineNumberBuffer	cbf14ef5734a4d13
+3	267	0	meson-test	1d1df91c67204513
+1	6560	0	meson-scan-build	df3903b5cc899f73

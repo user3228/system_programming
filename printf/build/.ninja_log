@@ -1,0 +1,9 @@
+# ninja log v5
+2	751	1547122068	src/printf/src@printf@@printf@exe/printf.cpp.o	b5b798fac02b43fe
+2	594	1547139120	build.ninja	9c5ca02cde6c252c
+3	702	1547139830	build.ninja	9c5ca02cde6c252c
+3	723	1547140043	src/printf/src@printf@@printf@exe/printf.cpp.o	b5b798fac02b43fe
+724	907	1547140043	src/printf/printf	84c241a0e6c5772
+4	634	1547146443	src/printf/src@printf@@printf@exe/printf.cpp.o	b5b798fac02b43fe
+635	861	1547146443	src/printf/printf	84c241a0e6c5772
+861	1143	0	meson-test	1d1df91c67204513

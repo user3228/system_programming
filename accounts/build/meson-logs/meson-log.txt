@@ -1,0 +1,62 @@
+Build started at 2019-01-10T22:19:42.321155
+Main binary: /usr/bin/python3
+Python system: Linux
+The Meson build system
+Version: 0.47.2
+Source dir: /home/st0484971/accounts
+Build dir: /home/st0484971/accounts/build
+Build type: native build
+Project name: accounts
+Project version: 0.1.0
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+Sanity check compiler command line: c++ /home/st0484971/accounts/build/meson-private/sanitycheckcpp.cc -o /home/st0484971/accounts/build/meson-private/sanitycheckcpp.exe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/st0484971/accounts/build/meson-private/sanitycheckcpp.exe
+Native C++ compiler: c++ (gcc 8.1.1 "c++ (GCC) 8.1.1 20180502 (Red Hat 8.1.1-1)")
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+src/accounts/meson.build:4: WARNING: Passed invalid keyword argument "dependences".
+WARNING: This will become a hard error in the future.
+Running compile:
+Working directory:  /tmp/tmpxjtqzr7f
+Command line:  c++ /tmp/tmpxjtqzr7f/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpxjtqzr7f/output.exe -O0 -fpermissive -Wl,--start-group -lgtest -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(int argc, char **argv) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmpnd5i1dcs
+Command line:  c++ /tmp/tmpnd5i1dcs/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpnd5i1dcs/output.exe -O0 -fpermissive -Wl,--start-group -lgtest_main -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(int argc, char **argv) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Dependency GTest found: YES (prebuilt)
+Adding test "accounts.cc"
+Build targets in project: 2
+Found ninja-1.8.2 at /usr/bin/ninja
+Running compile:
+Working directory:  /tmp/tmp138da5p_
+Command line:  c++ /tmp/tmp138da5p_/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp138da5p_/output.obj -O0 -fpermissive --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-redhat-linux/8/
+programs: =/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/bin/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/bin/
+libraries: =/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/lib/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/x86_64-redhat-linux/8/:/lib/../lib64/:/usr/lib/x86_64-redhat-linux/8/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/lib/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 

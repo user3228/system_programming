@@ -1,0 +1,62 @@
+Build started at 2019-01-10T21:58:17.688182
+Main binary: /usr/bin/python3
+Python system: Linux
+The Meson build system
+Version: 0.47.2
+Source dir: /home/st0484971/param_tests
+Build dir: /home/st0484971/param_tests/build
+Build type: native build
+Project name: param_tests
+Project version: 0.1.0
+Sanity testing C++ compiler: c++
+Is cross compiler: False.
+Sanity check compiler command line: c++ /home/st0484971/param_tests/build/meson-private/sanitycheckcpp.cc -o /home/st0484971/param_tests/build/meson-private/sanitycheckcpp.exe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/st0484971/param_tests/build/meson-private/sanitycheckcpp.exe
+Native C++ compiler: c++ (gcc 8.1.1 "c++ (GCC) 8.1.1 20180502 (Red Hat 8.1.1-1)")
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+src/param_tests/meson.build:6: WARNING: Passed invalid keyword argument "dependences".
+WARNING: This will become a hard error in the future.
+Running compile:
+Working directory:  /tmp/tmp7qtg1egy
+Command line:  c++ /tmp/tmp7qtg1egy/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp7qtg1egy/output.exe -O0 -fpermissive -Wl,--start-group -lgtest -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(int argc, char **argv) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmp4sp2ozd4
+Command line:  c++ /tmp/tmp4sp2ozd4/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp4sp2ozd4/output.exe -O0 -fpermissive -Wl,--start-group -lgtest_main -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(int argc, char **argv) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Dependency GTest found: YES (prebuilt)
+Adding test "MyArray2D.cc"
+Build targets in project: 2
+Found ninja-1.8.2 at /usr/bin/ninja
+Running compile:
+Working directory:  /tmp/tmphhvvnov6
+Command line:  c++ /tmp/tmphhvvnov6/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmphhvvnov6/output.obj -O0 -fpermissive --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-redhat-linux/8/
+programs: =/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/bin/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/bin/
+libraries: =/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/lib/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/x86_64-redhat-linux/8/:/lib/../lib64/:/usr/lib/x86_64-redhat-linux/8/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/lib/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
