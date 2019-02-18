@@ -1,0 +1,28 @@
+Build started at 2019-02-18T12:58:59.009832
+Main binary: /usr/bin/python3
+Python system: Linux
+The Meson build system
+Version: 0.47.2
+Source dir: /home/st0484971/vector
+Build dir: /home/st0484971/vector/build
+Build type: native build
+Project name: vector
+Project version: 0.1.0
+Native C++ compiler: c++ (gcc 8.1.1 "c++ (GCC) 8.1.1 20180502 (Red Hat 8.1.1-1)")
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Build targets in project: 1
+Found ninja-1.8.2 at /usr/bin/ninja
+Running compile:
+Working directory:  /tmp/tmpuwi5_iu3
+Command line:  c++ /tmp/tmpuwi5_iu3/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpuwi5_iu3/output.obj -O0 -fpermissive --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-redhat-linux/8/
+programs: =/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/bin/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/bin/
+libraries: =/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/lib/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib64/:/lib/x86_64-redhat-linux/8/:/lib/../lib64/:/usr/lib/x86_64-redhat-linux/8/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../x86_64-redhat-linux/lib/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 

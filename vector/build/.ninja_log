@@ -1,0 +1,4 @@
+# ninja log v5
+3	705	1550485031	build.ninja	28529ad08da87e61
+1	964	1550485032	src/vector/src@vector@@vector@exe/vector.cpp.o	99f35fc0794bc347
+966	1188	1550485033	src/vector/vector	de35996107d6f1de

@@ -1,0 +1,7 @@
+[
+  {
+    "directory": "/home/st0484971/vector/build",
+    "command": "c++ -Isrc/vector/src@vector@@vector@exe -Isrc/vector -I../src/vector -Isrc -I../src -fdiagnostics-color=always -fsanitize=address -fno-omit-frame-pointer -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O0 -g  -MD -MQ 'src/vector/src@vector@@vector@exe/vector.cpp.o' -MF 'src/vector/src@vector@@vector@exe/vector.cpp.o.d' -o 'src/vector/src@vector@@vector@exe/vector.cpp.o' -c ../src/vector/vector.cpp",
+    "file": "../src/vector/vector.cpp"
+  }
+]
