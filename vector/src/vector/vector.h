@@ -121,6 +121,7 @@ template<class T> class Vector {
             T* new_elem = new T[other.sz];
             left = right;
             right = new_elem;
+        }
 };
  
  
