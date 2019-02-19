@@ -62,10 +62,17 @@ build PHONY: phony
 
 build src/printf/src@printf@@printf@exe/printf.cpp.o: cpp_COMPILER ../src/printf/printf.cpp
  DEPFILE = src/printf/src@printf@@printf@exe/printf.cpp.o.d
- ARGS = -Isrc/printf/src@printf@@printf@exe -Isrc/printf -I../src/printf -Isrc -I../src -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O0 -g
+ ARGS = -Isrc/printf/src@printf@@printf@exe -Isrc/printf -I../src/printf -Isrc -I../src -fdiagnostics-color=always -fsanitize=address -fno-omit-frame-pointer -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O0 -g
 
 build src/printf/printf: cpp_LINKER src/printf/src@printf@@printf@exe/printf.cpp.o
- LINK_ARGS = -Wl,--no-undefined -Wl,--as-needed
+ LINK_ARGS = -fsanitize=address -Wl,--no-undefined -Wl,--as-needed
+
+build src/test/src@test@@printf_test@exe/printf_test.cpp.o: cpp_COMPILER ../src/test/printf_test.cpp
+ DEPFILE = src/test/src@test@@printf_test@exe/printf_test.cpp.o.d
+ ARGS = -Isrc/test/src@test@@printf_test@exe -Isrc/test -I../src/test -Isrc -I../src -fdiagnostics-color=always -fsanitize=address -fno-omit-frame-pointer -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O0 -g -pthread
+
+build src/test/printf_test: cpp_LINKER src/test/src@test@@printf_test@exe/printf_test.cpp.o | /usr/lib64/libgtest.so.1.8.0 /usr/lib64/libgtest_main.so.1.8.0
+ LINK_ARGS = -fsanitize=address -Wl,--no-undefined -Wl,--as-needed -Wl,--start-group -lgtest -lgtest_main -Wl,--end-group -pthread
 
 # Test rules
 
@@ -113,7 +120,7 @@ build meson-uninstall: CUSTOM_COMMAND PHONY
 
 build uninstall: phony meson-uninstall
 
-build all: phony src/printf/printf
+build all: phony src/printf/printf src/test/printf_test
 
 default all
 
@@ -123,11 +130,11 @@ build meson-clean: CUSTOM_COMMAND PHONY
  COMMAND = ninja -t clean
  description = Cleaning.
 
-build build.ninja: REGENERATE_BUILD ../meson.build ../src/meson.build ../src/printf/meson.build meson-private/coredata.dat
+build build.ninja: REGENERATE_BUILD ../meson.build ../src/meson.build ../src/printf/meson.build ../src/test/meson.build meson-private/coredata.dat
  pool = console
 
 build reconfigure: REGENERATE_BUILD PHONY
  pool = console
 
-build ../meson.build ../src/meson.build ../src/printf/meson.build meson-private/coredata.dat: phony 
+build ../meson.build ../src/meson.build ../src/printf/meson.build ../src/test/meson.build meson-private/coredata.dat: phony 
 

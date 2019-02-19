@@ -1,4 +1,4 @@
-Build started at 2019-01-10T19:46:44.702105
+Build started at 2019-02-19T12:27:42.974810
 Main binary: /usr/bin/python3
 Python system: Linux
 The Meson build system
@@ -11,11 +11,33 @@ Project version: 0.1.0
 Native C++ compiler: c++ (gcc 8.1.1 "c++ (GCC) 8.1.1 20180502 (Red Hat 8.1.1-1)")
 Build machine cpu family: x86_64
 Build machine cpu: x86_64
-Build targets in project: 1
+Running compile:
+Working directory:  /tmp/tmp52fz013y
+Command line:  c++ /tmp/tmp52fz013y/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp52fz013y/output.exe -O0 -fpermissive -Wl,--start-group -lgtest -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(int argc, char **argv) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /tmp/tmpg5pmdy1d
+Command line:  c++ /tmp/tmpg5pmdy1d/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpg5pmdy1d/output.exe -O0 -fpermissive -Wl,--start-group -lgtest_main -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(int argc, char **argv) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Dependency GTest found: YES (prebuilt)
+Adding test "printf.cpp"
+Build targets in project: 2
 Found ninja-1.8.2 at /usr/bin/ninja
 Running compile:
-Working directory:  /tmp/tmpxy60lf7p
-Command line:  c++ /tmp/tmpxy60lf7p/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpxy60lf7p/output.obj -O0 -fpermissive --print-search-dirs 
+Working directory:  /tmp/tmp02ekx81l
+Command line:  c++ /tmp/tmp02ekx81l/testfile.cpp -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmp02ekx81l/output.obj -O0 -fpermissive --print-search-dirs 
 
 Code:
  

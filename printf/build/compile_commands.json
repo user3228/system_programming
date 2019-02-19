@@ -1,7 +1,12 @@
 [
   {
     "directory": "/home/st0484971/printf/build",
-    "command": "c++ -Isrc/printf/src@printf@@printf@exe -Isrc/printf -I../src/printf -Isrc -I../src -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O0 -g  -MD -MQ 'src/printf/src@printf@@printf@exe/printf.cpp.o' -MF 'src/printf/src@printf@@printf@exe/printf.cpp.o.d' -o 'src/printf/src@printf@@printf@exe/printf.cpp.o' -c ../src/printf/printf.cpp",
+    "command": "c++ -Isrc/printf/src@printf@@printf@exe -Isrc/printf -I../src/printf -Isrc -I../src -fdiagnostics-color=always -fsanitize=address -fno-omit-frame-pointer -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O0 -g  -MD -MQ 'src/printf/src@printf@@printf@exe/printf.cpp.o' -MF 'src/printf/src@printf@@printf@exe/printf.cpp.o.d' -o 'src/printf/src@printf@@printf@exe/printf.cpp.o' -c ../src/printf/printf.cpp",
     "file": "../src/printf/printf.cpp"
+  },
+  {
+    "directory": "/home/st0484971/printf/build",
+    "command": "c++ -Isrc/test/src@test@@printf_test@exe -Isrc/test -I../src/test -Isrc -I../src -fdiagnostics-color=always -fsanitize=address -fno-omit-frame-pointer -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wnon-virtual-dtor -std=c++11 -O0 -g -pthread  -MD -MQ 'src/test/src@test@@printf_test@exe/printf_test.cpp.o' -MF 'src/test/src@test@@printf_test@exe/printf_test.cpp.o.d' -o 'src/test/src@test@@printf_test@exe/printf_test.cpp.o' -c ../src/test/printf_test.cpp",
+    "file": "../src/test/printf_test.cpp"
   }
 ]
