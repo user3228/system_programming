@@ -13,7 +13,7 @@ bool operator==(const geom_vector<T> &leftVector,
                 const geom_vector<T> &rightVector) {
   if ((leftVector.beginPoint != rightVector.beginPoint) ||
       (leftVector.endPoint != rightVector.endPoint)) {
-    return false; // I am missing this line in the tests
+    return false; 
   };
   return true;
 }
