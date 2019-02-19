@@ -114,19 +114,13 @@ template<class T> class Vector {
         }
  
         void swap(Vector& other) {
+            
+            T* left = other;
+            T* right = elem;
+            
             T* new_elem = new T[other.sz];
-            for (auto i=other.size()-1; i>=0; --i) {
-                new_elem[i] = other[i];
-                other.pop_back();
-            }
- 
-            for (auto i=0; i<sz; ++i) {
-                other.push_back(elem[i]);
-            }
- 
-            delete[] elem;
-            elem = new_elem;
-        }
+            left = right;
+            right = new_elem;
 };
  
  
